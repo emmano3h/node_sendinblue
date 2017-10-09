@@ -1,0 +1,142 @@
+doctype html
+html
+    head
+        title Hello - Welcome Email
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        //if !mso
+          meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        style(type='text/css').
+            .ReadMsgBody { width: 100%; background-color: #FFFFFF; }
+            .ExternalClass { width: 100%; background-color: #FFFFFF; }
+            body { width: 100%; background-color: #FFFFFF; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; font-family: Arial, Times, serif }
+            table { border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            @-ms-viewport{ width: device-width; }
+            @media only screen and (max-width: 639px){
+                .wrapper{ width:100%;  padding: 0 !important; }
+            }
+            @media only screen and (max-width: 480px){
+                .centerClass{ margin:0 auto !important; }
+                .imgClass{ width:100% !important; height:auto; }
+                .wrapper{ width:320px; padding: 0 !important; }
+                .container{ width:300px;  padding: 0 !important; }
+                .mobile{ width:300px; display:block; padding: 0 !important; text-align:center !important;}
+                *[class="mobileOff"] { width: 0px !important; display: none !important; }
+                *[class*="mobileOn"] { display: block !important; max-height:none !important; }
+            }
+        //if gte mso 15
+          style(type='text/css').
+            table { font-size:1px; line-height:0; mso-margin-top-alt:1px;mso-line-height-rule: exactly; }
+            * { mso-line-height-rule: exactly; }
+    body(marginwidth='0', marginheight='0', leftmargin='0', topmargin='0', style='background-color:#FFFFFF;  font-family:Arial,serif; margin:0; padding:0; min-width: 100%; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;')
+        // [if !mso] <!
+        // <![endif]
+        // Start Background
+        table(width='100%', cellpadding='0', cellspacing='0', border='0', bgcolor='#FFFFFF')
+            tr
+                td(width='100%', valign='top', align='center')
+                    // START HEADER
+                    table(width='100%', cellpadding='0', cellspacing='0', border='0', bgcolor='#FFFFFF', style='border-bottom:1px solid #f3f3f3;')
+                        tr
+                            td(height='30', style='font-size:10px; line-height:10px;')
+                        tr
+                            td(align='center')
+                                // Start Container
+                                table.container(width='600', cellpadding='0', cellspacing='0', border='0')
+                                    tr
+                                        td.mobile(width='600', align='center', mc:label='the_logo', mc:edit='the_logo')
+                                            img.centerClass(src='http://s8.postimg.org/4jydeue7l/logo.png', width='58', height='16', style='margin:0; padding:0; border:none; display:block;', border='0', alt='', mc:edit='the_image')
+                                // Start Container
+                        tr
+                            td(height='35', style='font-size:10px; line-height:10px;')
+                    // END HEADER
+                    // START HERO
+                    table(width='100%', cellpadding='0', cellspacing='0', border='0', bgcolor='#FFFFFF')
+                        tr
+                            td(height='40', style='font-size:10px; line-height:10px;')
+                        tr
+                            td(align='center')
+                                // Start Container
+                                table.container(width='600', cellpadding='0', cellspacing='0', border='0')
+                                    tr
+                                        td.mobile(width='600', align='center', mc:label='the_banner', mc:edit='the_banner')
+                                            img.imgClass(src='https://media.giphy.com/media/brsEO1JayBVja/giphy.gif', width='400', height='250', style='margin:0; padding:0; border:none; display:block; border-radius:8px;', border='0', alt='', mc:edit='the_image')
+                                // Start Container
+                        tr
+                            td(height='40', style='font-size:10px; line-height:10px;')
+                    // END HERO
+                    // START MESSAGE
+                    table(width='100%', cellpadding='0', cellspacing='0', border='0', bgcolor='#FFFFFF')
+                        tr
+                            td(height='', style='font-size:10px; line-height:10px;')
+                        tr
+                            td(align='center')
+                                // Start Container
+                                table.container(width='600', cellpadding='0', cellspacing='0', border='0')
+                                    tr
+                                        td.mobile(width='600', style='font-family:arial; font-size:18px; line-height:24px;', align='center', mc:label='the_title', mc:edit='the_title')
+                                            | Hello
+                                            span(style='color:#40a7ff;')
+                                                strong !{fullname}
+                                            | ,
+                                    tr
+                                        td(height='20', style='font-size:10px; line-height:10px;')
+                                    tr
+                                        td.mobile(width='600', align='center')
+                                            table.mobile(width='500')
+                                                tr
+                                                    td(style='font-family:arial; font-size:14px; line-height:24px; color:#aeaeae;', align='center', mc:label='the_copy', mc:edit='the_copy')
+                                                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dui lorem. Phasellus lacinia metus eros, id facilisis augue hendrerit ut. Aliquam malesuada
+                                                        | non nunc id lobortis. Aenean vel turpis et enim tempor.
+                                    tr
+                                        td(height='20', style='font-size:10px; line-height:10px;')
+                                    tr
+                                        td.mobile(width='600', align='center')
+                                            // Start Button
+                                            table(width='170', cellpadding='0', cellspacing='0', align='center', border='0')
+                                                tr
+                                                    td(width='170', height='46', bgcolor='#40a7ff', align='center', valign='middle', style='font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height:18px; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; font-weight:bold;', mc:label='the_btnText', mc:edit='the_btnText')
+                                                        a(href='', target='_blank', alias='', style='font-family: Arial, sans-serif; text-decoration: none; color: #ffffff;')
+                                                            | Welcome
+                                                            span(style='font-size:23px;') ›
+                                            // End Button
+                                // Start Container
+                        tr
+                            td(height='45', style='font-size:10px; line-height:10px;')
+                    // END MESSAGE
+                    // START FOOTER
+                    table(width='100%', cellpadding='0', cellspacing='0', border='0', bgcolor='#f6f6f6')
+                        tr
+                            td(height='40', style='font-size:10px; line-height:10px;')
+                        tr
+                            td(align='center')
+                                // Start Container
+                                table.container(width='600', cellpadding='0', cellspacing='0', border='0')
+                                    tr
+                                        td.mobile(width='600', align='center')
+                                            table.mobile(width='450')
+                                                tr
+                                                    td(align='center', style='font-family:arial; font-size:12px; line-height:18px; color:#aeaeae;', mc:label='the_terms', mc:edit='the_terms')
+                                                        | You’re receiving this email because you opted in at our website.
+                                                        | If you do NOT wish to receive these marketing updates you can unsubscribe below.
+                                    tr
+                                        td(height='20', style='font-size:10px; line-height:10px;')
+                                    tr
+                                        td.mobile(width='600', style='font-family:arial; font-size:12px; line-height:18px; color:#aeaeae;', align='center')
+                                            a(href='', target='_blank', alias='', style='font-size:12px; line-height:18px; color:#aeaeae; text-decoration:underline;', mc:label='the_unsubscribe', mc:edit='the_unsubscribe') Unsubcribe
+                                            span(style='color:#dddddd; font-size:17px;')
+                                            a(href='', target='_blank', alias='', style='font-size:12px; line-height:18px; color:#aeaeae; text-decoration:underline;', mc:label='the_settings', mc:edit='the_settings') Settings
+                                            span(style='color:#dddddd; font-size:17px;')
+                                            a(href='', target='_blank', alias='', style='font-size:12px; line-height:18px; color:#aeaeae; text-decoration:underline;', mc:label='the_forward', mc:edit='the_forward') Forward
+                                            span(style='color:#dddddd; font-size:17px;')
+                                            a(href='', target='_blank', alias='', style='font-size:12px; line-height:18px; color:#aeaeae; text-decoration:underline;', mc:label='the_online', mc:edit='the_online') Online
+                                    tr
+                                        td(height='20', style='font-size:10px; line-height:10px;')
+                                    tr
+                                        td.mobile(width='600', style='font-family:arial; font-size:12px; line-height:18px; color:#aeaeae;', align='center', mc:label='the_copyright', mc:edit='the_copyright')
+                                            | © 2017 Hello. - All Rights Reserved
+                                // Start Container
+                        tr
+                            td(height='40', style='font-size:10px; line-height:10px;')
+                    // END FOOTER
+        // End Background
